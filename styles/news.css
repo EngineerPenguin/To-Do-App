@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia;
+}
+
+h1 {
+    background: rgb(119, 1, 1);
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.topnav {
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration-color: white;
+    font-size: 15px;
+}
+
+#new_001 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(189, 82, 11);
+    margin-top: 10px;
+    padding: 10px 300px 10px 10px;
+    background-color: rgb(235, 233, 233);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo🐧</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+    <div >
+        <body>
+            <h1>To Do List</h1> <!--Header Title-->
+                <div>
+                    <div class="topnav"> <!--Navigation Bor-->
+                        <a href="home.html">Home</a>
+                        <a href="news.html">News</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                    </div>
+                </div>
+            <div id="taskList"> <!--New Tasks Go Here-->
+                <input type="text" id="myInput" placeholder="New Task Goes Here">
+                <span onClick="newElement()" class="addBtn">Add</span> <!--New Task Button-->
+            </div>  
+        <ul id="myUL">
+            <li>Hit the gym</li>
+        </ul>
+            <div>
+                <header class="aboutHeader" id="about">About</header>    
+                    <p class="about">
+                        My name is Chance, I hope you have enjoyed my app!
+                    </p>
+            </div>
+            <footer class="footer" id="contact">Chance Estep
+                <br>
+                <a id="contact" href="https://linktr.ee/engineerpenguin" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=SomeSize,height=SomeSize');
+                    false;">Contact</a> 
+            </footer>
+        <script src="index.js"></script>
+        </body>
+</html>
